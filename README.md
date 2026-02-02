@@ -1,7 +1,19 @@
+# forked stuff
+
 ## what does this fork change?
 nothing so far, i just added up to date executables in releases. might add stuff someday idk
 
-# mint
+## build instructions
+if you want to build from trumank's master yourself this is how I did it
+if u want to build mine for some reason just change the url
+
+1. install rustup and mingw-w64 (for my arch based system that was `sudo pacman -S rustup mingw-w64-gcc`)
+2. `rustup toolchain install nightly`
+3. `git pull https://github.com/trumank/mint && cd mint/`
+4. `cargo build --release -Z bindeps`
+5. you can find your executable in <cloned mint repo directory>/target/release/mint
+
+# mint - original readme
 
 3rd party mod integration tool for Deep Rock Galactic to download and integrate mods completely
 externally of the game. This enables more stable mod usage as well as offline mod usage. Works for
