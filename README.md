@@ -1,3 +1,6 @@
+## what does this fork change?
+nothing so far, i just added up to date executables in releases. might add stuff someday idk
+
 # mint
 
 3rd party mod integration tool for Deep Rock Galactic to download and integrate mods completely
